@@ -1,0 +1,103 @@
+// Responsive
+
+/*
+Template Name: Admin Template
+Author: Wrappixel
+
+File: scss
+*/
+
+/*============================================================== 
+ For Desktop & above all (2500px) 
+ ============================================================== */
+
+@media (min-width: 2500px) and (max-width: 4499px) {
+    .topbar {
+        background-position: right -70px top 0px;
+    }
+    .footer{
+        background-position:  top -80px left -30px!important; 
+    }
+}
+
+/*============================================================== 
+ For Desktop & above all (1600px) 
+ ============================================================== */
+
+@media (min-width: 1600px) and (max-width: 2499px) {
+    .topbar {
+        background-position: right -500px top 0px;
+    }
+}
+
+
+/*============================================================== 
+ For Laptop & above all (1400px) 
+ ============================================================== */
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .topbar {
+        background-position: right -640px top 0px;
+    }
+}
+
+
+/*-- ============================================================== 
+ Desktop & above all (1399px) 
+ ============================================================== */
+
+@media (max-width: 1399px) {
+    .topbar {
+        background-position: right -630px top -10px;
+    }
+    .live-box {
+        padding: 30px;
+        padding-bottom: 0;
+    }
+    .footer{
+        background-position:  top 0px left -80px!important; 
+    }
+}
+
+
+
+/*-- ============================================================== 
+ Ipad & above all(1023px) 
+ ============================================================== */
+
+@media (max-width: 1023px) {
+    .feature1,
+    .header-banner {
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+}
+
+
+
+/*-- ============================================================== 
+ Phone and below ipad(767px) 
+ ============================================================== */
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        padding: 10px 0;
+        .navbar-nav {
+            .nav-item:last-child {
+                padding-left: 0 !important;
+                .btn {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .topbar {
+        background-position: right -930px top -10px;
+    }
+    .footer{
+        background-position:  top -10px left -930px!important;
+    }
+}
