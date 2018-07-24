@@ -1,0 +1,101 @@
+/*
+Template Name: Admin Template
+Author: Niravjoshi / Wrappixel
+File: scss
+*/
+
+// This is the extra scss
+// Tooltip for the sparkline charts
+html body {
+    .jqstooltip,
+    .flotTip {
+        width: auto!important;
+        height: auto!important;
+        background: $gray-900;
+        color: $white;
+        padding: 5px 10px;
+    }
+}
+
+body .jqstooltip {
+    border-color: transparent;
+    border-radius: 60px;
+}
+
+
+// Custom select
+.custom-select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    background-size: auto;
+}
+
+//material-icon
+.m-icon {
+    width: 33%;
+    display: inline-block;
+}
+
+@include media-breakpoint-down(sm) {
+    .m-icon {
+        width: 100%;
+    }
+}
+
+//font-awesome icon
+.f-icon,
+.t-icon,
+.w-icon,
+.sl-icon,
+.if-icon,
+.m-icon {
+    cursor: pointer;
+    padding: 13px 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    &:hover {
+        background-color: $gray-100;
+    }
+}
+
+// this is for custom pills
+.nav-pills.custom-pills {
+    .nav-link {
+        border-radius: 0;
+        opacity: 0.7;
+        &.active {
+            color: $themecolor;
+            opacity: 1;
+            background-color: transparent;
+            border-bottom: 2px solid $themecolor;
+        }
+    }
+}
+
+// Custom validation Classes
+.error {
+    .form-control {
+        border-color: $danger;
+    }
+    .help-block {
+        color: $danger;
+    }
+}
+
+.error-box {
+    height: 100%;
+    position: fixed;
+    background: url(../../../../assets/images/background/error-bg.jpg) no-repeat center center #fff;
+    width: 100%;
+    .error-body {
+        padding-top: 5%;
+    }
+    .error-title {
+        font-size: 210px;
+        font-weight: 900;
+        text-shadow: 4px 4px 0 #fff, 6px 6px 0 $dark;
+        line-height: 210px;
+    }
+}
