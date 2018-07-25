@@ -10310,6 +10310,44 @@ body .jqstooltip {
     text-shadow: 4px 4px 0 #fff, 6px 6px 0 #343a40;
     line-height: 210px; }
 
+.land-topbar {
+  line-height: 50px; }
+
+.version-title {
+  font-weight: 500; }
+
+.live-box {
+  position: relative; }
+  .live-box .overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    height: 100%;
+    display: none; }
+    .live-box .overlay .live-btn {
+      position: relative;
+      top: 45%;
+      padding: 10px 20px; }
+  .live-box:hover .overlay {
+    display: block; }
+
+.pro-demo {
+  box-shadow: 5px 4px 8px #afb5c1; }
+
+.lite-list li {
+  font-size: 15px; }
+  .lite-list li span {
+    color: #343a40; }
+
+.pro-list li {
+  color: #137eff;
+  font-size: 15px; }
+  .pro-list li span {
+    color: #343a40; }
+
 /*Theme Colors*/
 /*Topbar Colors*/
 /*Sidebar Colors*/
