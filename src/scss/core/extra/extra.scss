@@ -101,14 +101,10 @@ body .jqstooltip {
 }
 
 //landing page style
-.land-topbar{
-    line-height: 50px;
-}
-.version-title{
-    font-weight: 500;
-}
+
 .live-box {
     position: relative;
+    border:1px solid $gray-200;
     .overlay {
         position: absolute;
         width: 100%;
@@ -130,26 +126,18 @@ body .jqstooltip {
         }
     }
 }
-
+.listing{
+    li{
+        line-height:37px;
+        i{
+            margin-right:5px;
+        }
+    }
+}
 .pro-demo{
-    box-shadow: 5px 4px 8px rgb(175, 181, 193);
+    box-shadow: 0px 4px 45px rgba(0,0,0,0.09);
 }
 
-.lite-list{
-    li{
-        font-size: 15px;
-        span{
-            color: $dark;
-        }
-    }
-}
-
-.pro-list{
-    li{
-        color: $blue;
-        font-size: 15px;
-        span{
-            color: $dark;
-        }
-    }
+.line-h33{
+    line-height:33px; 
 }
