@@ -112,6 +112,9 @@
             }
             .left-sidebar {
                 width: $sidebar-width-mini;
+                .upgrade-btn {
+                    display: none;
+                }
                 &:hover {
                     width: $sidebar-width-full;
                     .sidebar-nav {
@@ -121,6 +124,9 @@
                         }
                         .nav-small-cap {
                             justify-content: flex-start;
+                        }
+                        .upgrade-btn {
+                            display: block;
                         }
                     }
                 }

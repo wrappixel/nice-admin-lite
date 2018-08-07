@@ -7008,13 +7008,17 @@ html[dir="ltr"] body .p-l-0 {
       justify-content: center; }
     #main-wrapper[data-layout="vertical"][data-sidebartype="mini-sidebar"] .left-sidebar {
       width: 65px; }
+      #main-wrapper[data-layout="vertical"][data-sidebartype="mini-sidebar"] .left-sidebar .upgrade-btn {
+        display: none; }
       #main-wrapper[data-layout="vertical"][data-sidebartype="mini-sidebar"] .left-sidebar:hover {
         width: 250px; }
         #main-wrapper[data-layout="vertical"][data-sidebartype="mini-sidebar"] .left-sidebar:hover .sidebar-nav .hide-menu,
         #main-wrapper[data-layout="vertical"][data-sidebartype="mini-sidebar"] .left-sidebar:hover .sidebar-nav .has-arrow:after {
           display: block; }
         #main-wrapper[data-layout="vertical"][data-sidebartype="mini-sidebar"] .left-sidebar:hover .sidebar-nav .nav-small-cap {
-          justify-content: flex-start; } }
+          justify-content: flex-start; }
+        #main-wrapper[data-layout="vertical"][data-sidebartype="mini-sidebar"] .left-sidebar:hover .sidebar-nav .upgrade-btn {
+          display: block; } }
 
 @media (max-width: 766px) {
   #main-wrapper[data-sidebartype="mini-sidebar"] .left-sidebar {
