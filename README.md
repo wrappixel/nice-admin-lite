@@ -12,7 +12,11 @@
 
 <!-- Description of Template -->
 <p>
- Lorem ipsume
+  If you are looking for an elegant design template for your project then Nice Admin Lite is your pick. A carefully handcrafted free bootstrap 4 templates for the dashboard is simple, sober and alluring. Interestingly, it is built with a modern and modular design with fully responsive pages.
+</p>
+
+<p>
+    Apart from its simplicity, you get easy customization options with all essential components, widgets, elements and other features. This <a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">bootstrap 4 dashboard template</a> is based on the Bootstrap 4 framework along with SaSS Base CSS. For commercial purposes, WrapPixel has an amazing comprehensive template inclusive of all features to execute with the best layouts.
 </p>
 
 <!-- Versions of Template -->
