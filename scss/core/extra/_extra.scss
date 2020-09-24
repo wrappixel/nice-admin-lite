@@ -1,0 +1,171 @@
+/*
+Template Name: Admin Template
+Author: Niravjoshi / Wrappixel
+File: scss
+*/
+
+// This is the extra scss
+// Tooltip for the sparkline charts
+html body {
+    .jqstooltip,
+    .flotTip {
+        width: auto!important;
+        height: auto!important;
+        background: $gray-900;
+        color: $white;
+        padding: 5px 10px;
+    }
+}
+
+body .jqstooltip {
+    border-color: transparent;
+    border-radius: 60px;
+}
+
+
+// Tooltip for the chartist chart charts
+.chartist-tooltip {
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+    border-radius: $border-radius;
+    padding: 10px 20px;
+    background: $info;
+    color: $white;
+    ext-align: center;
+    pointer-events: none;
+    z-index: 1;
+    -webkit-transition: opacity .2s linear;
+    -moz-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    transition: opacity .2s linear;
+}
+
+.chartist-tooltip:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -5px;
+    border: 5px solid transparent;
+    border-top-color: $info;
+}
+
+.chartist-tooltip.tooltip-show {
+    opacity: 1;
+}
+
+.ct-area,
+.ct-line {
+    pointer-events: none;
+}
+
+.c3-chart-arcs-title {
+    fill: $text-muted;
+}
+
+.c3 line,
+.c3 path {
+    stroke: rgba(0,0,0,.2);
+}
+.c3-chart-arc path{
+    stroke:transparent;  
+}
+.popover-item {
+    margin-left: -15px;
+    &:hover {
+        z-index: 10;
+        position: relative;
+    }
+}
+
+// Custom select
+.custom-select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    background-size: auto;
+}
+
+//material-icon
+.m-icon {
+    width: 33%;
+    display: inline-block;
+}
+
+@include media-breakpoint-down(sm) {
+    .m-icon {
+        width: 100%;
+    }
+}
+
+//font-awesome icon
+.f-icon,
+.t-icon,
+.w-icon,
+.sl-icon,
+.if-icon,
+.m-icon {
+    cursor: pointer;
+    padding: 13px 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    &:hover {
+        background-color: $gray-100;
+    }
+}
+
+// this is for custom pills
+.nav-pills.custom-pills {
+    .nav-link {
+        border-radius: 0;
+        opacity: 0.7;
+        &.active {
+            color: $themecolor;
+            opacity: 1;
+            background-color: transparent;
+            border-bottom: 2px solid $themecolor;
+        }
+    }
+}
+
+// Form row Separator
+label {
+    font-weight: $font-weight-medium;
+}
+
+.b-label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+// scrollbar
+.scrollable {
+    position: relative;
+}
+
+.error-box {
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    .error-body {
+        padding-top: 5%;
+    }
+    .error-title {
+        font-size: 210px;
+        font-weight: 900;
+        text-shadow: 4px 4px 0 #fff, 6px 6px 0 $dark;
+        line-height: 210px;
+    }
+}
+
+
+
+
+
+

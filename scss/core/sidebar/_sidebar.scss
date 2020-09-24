@@ -1,0 +1,86 @@
+// Sidebar
+$sidebar-link-padding: 12px 15px;
+$sidebar-icon-size: 20px;
+/*******************
+Main sidebar
+******************/
+
+.left-sidebar {
+    position: absolute;
+    width: $sidebar-width-full;
+    height: 100%;
+    top: 0px;
+    z-index: 10;
+    padding-top: 64px;
+    background: $sidebar;
+    box-shadow: $shadow;
+    transition: 0.2s ease-in;
+}
+
+/*******************
+sidebar navigation
+******************/
+
+.sidebar-nav {
+    ul {
+        .sidebar-item {
+            width: $sidebar-width-full;
+            .sidebar-link {
+                color: $sidebar-text;
+                padding: $sidebar-link-padding;
+                display: flex;
+                white-space: nowrap;
+                align-items: center;
+                line-height: 25px;
+                opacity: 0.5;
+                i {
+                    font-style: normal;
+                    width: 35px;
+                    line-height: 25px;
+                    font-size: $sidebar-icon-size;
+                    color: $sidebar-icons;
+                    display: inline-block;
+                    text-align: center;
+                }
+                &.active,
+                &:hover {
+                    opacity: 1;
+                }
+            }
+            &.selected>.sidebar-link {
+                color: $white;
+                i {
+                    color: $white;
+                }
+            }
+            
+        }
+    }
+    >#sidebarnav >.sidebar-item >.sidebar-link:hover, >#sidebarnav >.sidebar-item.selected >.sidebar-link{
+        background: rgba(0, 0, 0, 0.1);
+        border-left:2px solid $info;
+    }
+    >#sidebarnav >.sidebar-item >.sidebar-link{
+        border-left:2px solid transparent;
+    }
+}
+
+/*******************
+ common m-p removed
+******************/
+
+.sidebar-nav {
+    ul {
+        margin: 0px;
+        padding: 0px;
+        li {
+            list-style: none;
+        }
+    }
+}
+
+.collapse.in {
+    display: block;
+}
+
+
