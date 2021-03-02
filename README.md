@@ -12,11 +12,11 @@
 
 <!-- Description of Template -->
 <p>
-  If you are looking for an elegant design template for your project then Nice Admin Lite is your pick. A carefully handcrafted free bootstrap 4 templates for the dashboard is simple, sober and alluring. Interestingly, it is built with a modern and modular design with fully responsive pages.
+  If you are looking for an elegant design template for your project then Nice Admin Lite is your pick. A carefully handcrafted free bootstrap 5 templates for the dashboard is simple, sober and alluring. Interestingly, it is built with a modern and modular design with fully responsive pages.
 </p>
 
 <p>
-    Apart from its simplicity, you get easy customization options with all essential components, widgets, elements and other features. This <a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">bootstrap 4 dashboard template</a> is based on the Bootstrap 4 framework along with SaSS Base CSS. For commercial purposes, WrapPixel has an amazing comprehensive template inclusive of all features to execute with the best layouts.
+    Apart from its simplicity, you get easy customization options with all essential components, widgets, elements and other features. This <a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">bootstrap 5 dashboard template</a> is based on the Bootstrap 5 framework along with SaSS Base CSS. For commercial purposes, WrapPixel has an amazing comprehensive template inclusive of all features to execute with the best layouts.
 </p>
 
 <!-- Versions of Template -->
@@ -63,7 +63,7 @@
 <h2>Licensing</h2>
 <ul>
   <li>
-    <p>Copyright 2020 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
+    <p>Copyright 2021 Wrappixel (<a href="https://www.wrappixel.com/" rel="nofollow">https://www.wrappixel.com/</a>)</p>
   </li>
   <li>
     <p>Licensed under MIT (<a href="https://www.wrappixel.com/license/">https://www.wrappixel.com/license/</a>)</p>
@@ -92,7 +92,7 @@
 <h2>Useful Links</h2>
 <ul>
 <li><a href="https://www.wrappixel.com/templates/category/admin-template/">Admin Template</a> from WrapPixel</li>
-<li><a href="https://www.wrappixel.com/">Bootstrap 4 Templates</a> from WrapPixel</li>
+<li><a href="https://www.wrappixel.com/">Bootstrap 5 Templates</a> from WrapPixel</li>
 <li><a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">Bootstrap Admin Template</a> from WrapPixel</li>
 <li><a href="https://www.wrappixel.com/templates/category/react-templates/">React Dashboard</a> from WrapPixel</li>
 <li><a href="https://www.wrappixel.com/templates/category/vuejs-templates/">Vue Templates</a> from WrapPixel</li>
