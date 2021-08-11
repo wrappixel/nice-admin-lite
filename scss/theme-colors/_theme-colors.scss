@@ -1,70 +1,74 @@
 // Theme colors
-#main-wrapper{
-    &[data-layout="vertical"], &[data-layout="horizontal"]{
-        /*This is for the logo bg*/
-        .topbar .top-navbar .navbar-header{
-            &[data-logobg="skin5"]{
-                background: $skin5;
-            }
-            &[data-logobg="skin6"]{
-                background: $skin6;
-                .navbar-brand {
-                    .dark-logo {
-                        display: inline;
-                    }
-                    .light-logo{
-                        display: none; 
-                    }
-                }
-                .nav-toggler, .sidebartoggler, .topbartoggler{
-                    color:$body-color;
-                }
-            }
+#main-wrapper {
+  &[data-layout="vertical"],
+  &[data-layout="horizontal"] {
+    /*This is for the logo bg*/
+    .topbar .top-navbar .navbar-header {
+      &[data-logobg="skin5"] {
+        background: $skin5;
+      }
+      &[data-logobg="skin6"] {
+        background: $skin6;
+        .navbar-brand {
+          .dark-logo {
+            display: inline;
+          }
+          .light-logo {
+            display: none;
+          }
         }
-        .topbar .navbar-collapse, .topbar{
-            &[data-navbarbg="skin5"]{
-                background: $skin5;
-            } 
-            &[data-navbarbg="skin6"]{
-                background: $skin6;
-            }
+        .nav-toggler,
+        .sidebartoggler,
+        .topbartoggler {
+          color: $body-color;
         }
-        /*This is for the sidebar bg*/
-        .left-sidebar{
-            &[data-sidebarbg="skin5"], &[data-sidebarbg="skin5"] ul {
-                background: $skin5;
-            }
-            &[data-sidebarbg="skin6"]{
-                background: $skin6;
-                .sidebar-nav {
-                    ul {
-                        background: $skin6;
-                        .sidebar-item {
-                            .sidebar-link {
-                                color: $sidebar-text-dark;
-                                opacity:0.7;
-                                i{
-                                   color: $sidebar-text-dark;
-                                }
-                                &.active,
-                                &:hover {
-                                    opacity: 1;
-                                }
-                            }
-                        }
-                        .nav-small-cap {
-                            color: $sidebar-text-dark;
-                        }
-                    }
-                    
-                    .has-arrow {
-                        &::after {
-                           border-color: $sidebar-text-dark; 
-                        }
-                    }
-                }
-            }
-        }
+      }
     }
-    
+    .topbar .navbar-collapse,
+    .topbar {
+      &[data-navbarbg="skin5"] {
+        background: $skin5;
+      }
+      &[data-navbarbg="skin6"] {
+        background: $skin6;
+      }
+    }
+    /*This is for the sidebar bg*/
+    .left-sidebar {
+      &[data-sidebarbg="skin5"],
+      &[data-sidebarbg="skin5"] ul {
+        background: $skin5;
+      }
+      &[data-sidebarbg="skin6"] {
+        background: $skin6;
+        .sidebar-nav {
+          ul {
+            background: $skin6;
+            .sidebar-item {
+              .sidebar-link {
+                color: $sidebar-text-dark;
+                opacity: 0.7;
+                i {
+                  color: $sidebar-text-dark;
+                }
+                &.active,
+                &:hover {
+                  opacity: 1;
+                }
+              }
+            }
+            .nav-small-cap {
+              color: $sidebar-text-dark;
+            }
+          }
+
+          .has-arrow {
+            &::after {
+              border-color: $sidebar-text-dark;
+            }
+          }
+        }
+      }
+    }
+  }
 }

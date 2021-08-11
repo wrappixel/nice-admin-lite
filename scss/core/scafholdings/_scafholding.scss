@@ -44,7 +44,6 @@ a.link {
   }
 }
 
-
 .clear {
   clear: both;
 }
@@ -52,8 +51,6 @@ a.link {
 ol li {
   margin: 5px 0;
 }
-
-
 
 .hide {
   display: none;
@@ -151,7 +148,6 @@ html body {
     background-color: $white;
   }
 }
-
 
 /*******************
 Labels
@@ -310,89 +306,95 @@ Labels
   background-color: $gray-100;
 }
 
-
-// 
+//
 // 5-feb-2021
-// 
+//
 
 .card-body {
-    padding: 1.25rem;
+  padding: 1.25rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .form-group {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 label {
-    display: inline-block;
-    margin-bottom: 0.5rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
 }
 
 .table thead th {
-    color: $body-color;
-    font-weight: 500;
+  color: $body-color;
+  font-weight: 500;
 }
 
-.table td, .table th{
-    padding: 1rem;
+.table td,
+.table th {
+  padding: 1rem;
 }
 
 .card-subtitle {
-    margin-top: -0.375rem; 
+  margin-top: -0.375rem;
 }
 
-.table>:not(:last-child)>:last-child>* {
-    border-bottom-color: rgb(233, 236, 239);
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: rgb(233, 236, 239);
 }
 
 small {
-    font-size: 80%;
-    font-weight: 400;
+  font-size: 80%;
+  font-weight: 400;
 }
 
 .error-box .error-body .error-title {
-    font-size: 210px !important;
-    font-weight: 900 !important;
-    line-height: 210px !important;
+  font-size: 210px !important;
+  font-weight: 900 !important;
+  line-height: 210px !important;
 }
 
-.form-control, .form-select {
-    height: calc(1.5em + 0.75rem + 2px);
+.form-control,
+.form-select {
+  height: calc(1.5em + 0.75rem + 2px);
 }
 
 textarea.form-control {
-    height: auto;
+  height: auto;
 }
 
 .display-5 {
-    font-weight: 400;
-    line-height: 1.5;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.form-control, .form-select {
-    color: $sidebar-icons-dark;
+.form-control,
+.form-select {
+  color: $sidebar-icons-dark;
 }
 
 .form-check-input {
-    background-color: #fff;
-    width: 1rem;
-    height: 1rem;
-    border: 1px solid #a1aab2;
+  background-color: #fff;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #a1aab2;
 }
 
-.form-check-input[type=checkbox] {
-    border-radius: 0;
+.form-check-input[type="checkbox"] {
+  border-radius: 0;
 }
 
 .table .thead-light th {
-    color: #4f5467;
-    background-color: #e9ecef;
+  color: #4f5467;
+  background-color: #e9ecef;
 }
 
-.table-active, .table-primary, .table-success, .table-danger, .table-info {
+.table-active,
+.table-primary,
+.table-success,
+.table-danger,
+.table-info {
   color: $body-color;
 }
