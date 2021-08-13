@@ -48,7 +48,7 @@
 <h2>Resources</h2>
 <ul>
 <li>  
-  Live Demo: <a href="https://www.wrappixel.com/demos/free-admin-templates/nice-admin-lite/nice-html/ltr/index.html" rel="nofollow">https://www.wrappixel.com/demos/free-admin-templates/nice-admin-lite/nice-html/ltr/index.html</a>
+  Live Demo: <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/nice-bootstrap-free/landingpage/index.html" rel="nofollow">https://demos.wrappixel.com/free-admin-templates/bootstrap/nice-bootstrap-free/landingpage/index.html</a>
 </li>
 <li>
     Download Page: <a href="https://www.wrappixel.com/templates/niceadmin-lite/" rel="nofollow">
@@ -85,7 +85,7 @@
 </a>
 <p>
    Checkout our premium version of Nice Bootstrap Admin for lots more features and ready to use page templates.<br>
-   <a href="https://www.wrappixel.com/demos/admin-templates/nice-admin/html/ltr/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/niceadmin/">Download</a>
+   <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/nice-bootstrap/package/html/ltr/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/niceadmin/">Download</a>
 </p>
 
 <!-- Useful Links of Template -->
