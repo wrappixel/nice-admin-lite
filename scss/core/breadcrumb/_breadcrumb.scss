@@ -15,10 +15,10 @@
     background: transparent;
     font-size: 12px;
     .breadcrumb-item + .breadcrumb-item::before {
-      content: "\e649";
-      font-family: themify;
+      content: "\F142";
+      font: normal normal normal 24px/1 "Material Design Icons";
+      font-size: inherit;
       color: $gray-400;
-      font-size: 11px;
     }
   }
 }
