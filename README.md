@@ -22,7 +22,7 @@ Nice Bootstrap Admin Dashboard
     <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/nice-bootstrap-free/html/index.html">Live Preview</a>
   </td>
   <td>
-  <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/nice-bootstrap-free/landingpage/index.html">Live Preview</a>
+  <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/nice-bootstrap/package/html/ltr/index.html">Live Preview</a>
   </td>
 </tr>
 <tr>
@@ -139,7 +139,7 @@ Nice Bootstrap Admin Dashboard
 </a>
 <p>
   Checkout our premium version of Nice Bootstrap Admin Dashboard Template for lots more features and ready to use page templates.<br>
-  <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/nice-bootstrap-free/landingpage/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/niceadmin/">Download</a>
+  <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/nice-bootstrap/package/html/ltr/index.html">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/niceadmin/">Download</a>
 </p>
 
 <!-- Versions of Template -->
